@@ -1,9 +1,11 @@
 // generateMarkdown function populating the README.md
 function generateMarkdown(data) {
   return `
-<h1 align="center">${data.projectTitle} 👋</h1>
+# ${data.projectTitle} 👋
 
 ## Description
+
+Breif description of my project:
 🔍 ${data.description}
 
 ## Table of Contents
@@ -17,6 +19,7 @@ function generateMarkdown(data) {
 
 ## Installation
 💾 ${data.installation}
+Using NPM inquirer ${data.inquirer}
 
 ## Usage
 💻 ${data.usage}
@@ -30,6 +33,15 @@ The application uses ${data.license} license.
 
 ## Tests
 ✏️ ${data.tests}
+
+## Questions
+💡 ${data.questions}
+
+## Contact
+If you would like to conatct me for more information on my project:
+📧 ${data.username} : Github Username
+📧 ${data.email} : Email address
+
   `;
 }
 

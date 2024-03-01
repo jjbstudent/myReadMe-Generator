@@ -1,8 +1,10 @@
 
-<h1 align="center">readme generator 👋</h1>
+# Professional README generator 👋
 
 ## Description
-🔍 it generates read me files
+
+Breif description of my project:
+🔍 This project generates a README file using node.js , The user will be prompted a series of questions which will be used to render the readme file
 
 ## Table of Contents
 - [Description](#description)
@@ -14,18 +16,28 @@
 - [Questions](#questions)
 
 ## Installation
-💾 run npm installer
+💾 install npm inquirer and run 'node index.js'
+Using NPM inquirer version 6.5.1
 
 ## Usage
-💻 no
+💻 The project is used to demonstrate outputting user input onto a file which has a template
 
 ## License
 
-The application uses Apache license. 
+The application uses MIT license. 
 
 ## Contributing
-👪 yes
+👪 Course instructor, Assisting TAs, inquirer documentation, node documentation 
 
 ## Tests
-✏️ yes
+✏️ This is the test
+
+## Questions
+💡 I came across several issues creating this project, I corrected this by using the correct Inquirer version
+
+## Contact
+If you would like to conatct me for more information on my project:
+📧 jjbstudent : Github Username
+📧 jblearn2023@gmail.com : Email address
+
   
